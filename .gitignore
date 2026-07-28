@@ -1,0 +1,32 @@
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Datos crudos y procesados: se regeneran con scripts/00_download.py
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+
+# Figuras: se regeneran
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Videos renderizados: se regeneran con 10_animate_ghosting.py
+reports/video/
+
+# Pesos entrenados: no se distribuyen (regenerar con scripts/07_cross_validate.py)
+*.pt
+
+# Logs de entrenamiento
+results/logs/
+
+# Paquetes de exportación
+ghosting_*.zip
+*.tar.gz
+
+# Build artifacts
+*.egg-info/
+
+# Las tablas de resultados (reports/tables/) sí se versionan.
+# Los pesos (.pt) NO se versionan; son reproducibles con el código.

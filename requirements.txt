@@ -1,0 +1,10 @@
+# --- núcleo (pasos 0-2, todo CPU) ---
+numpy>=1.24,<3
+matplotlib>=3.7
+kloppy>=3.16          # carga de Sportec / Metrica / SkillCorner
+pytest>=7.4
+tqdm>=4.66            # barras de progreso en el entrenamiento
+
+# --- paso 3 (modelo aprendido) ---
+# Instalar con ./setup.sh --torch (build CPU: la laptop no tiene CUDA)
+# torch>=2.2
