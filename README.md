@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/0692ade4-1dd8-4503-9b05-def6b61978d8
+
 # Ghosting — imputación de jugadores fuera de cámara
 
 ![Reconstrucción de jugadores ocultos, modo causal](docs/assets/ghosting_demo.gif)
