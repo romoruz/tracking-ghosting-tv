@@ -1,5 +1,11 @@
 # Ghosting — imputación de jugadores fuera de cámara
 
+![Reconstrucción de jugadores ocultos, modo causal](docs/assets/ghosting_demo.gif)
+
+*Banda amarilla: lo que la cámara muestra. Círculo hueco: jugador oculto,
+posición real. Rombo gris: heurística B4. Rombo naranja: nuestro modelo.
+La línea es el error en metros — verde ≤2 s oculto, ámbar 2–9.6 s, rojo >9.6 s.*
+
 Reconstrucción de las posiciones de los jugadores que la cámara de televisión
 **no muestra**, a partir de los que sí muestra.
 
