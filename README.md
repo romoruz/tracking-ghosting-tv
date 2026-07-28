@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/0692ade4-1dd8-4503-9b05-def6b61978d8
-
 # Ghosting — imputación de jugadores fuera de cámara
 
 ![Reconstrucción de jugadores ocultos, modo causal](docs/assets/ghosting_demo.gif)
@@ -147,3 +143,5 @@ Código propio bajo [AGPL-3.0](LICENSE). Los datos de cada proveedor conservan
 su licencia original; revísalas antes de redistribuir cualquier derivado.
 
 Para uso comercial con código cerrado, contactar al autor.
+
+https://github.com/user-attachments/assets/0692ade4-1dd8-4503-9b05-def6b61978d8
