@@ -171,6 +171,4 @@ entrenamiento):
 
 https://github.com/user-attachments/assets/0692ade4-1dd8-4503-9b05-def6b61978d8
 
-https://github.com/user-attachments/assets/0692ade4-1dd8-4503-9b05-def6b61978d8
-
 
