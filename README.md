@@ -141,4 +141,36 @@ su licencia original; revísalas antes de redistribuir cualquier derivado.
 
 Para uso comercial con código cerrado, contactar al autor.
 
+---
+
+## Autoría y uso de asistentes de IA
+
+El planteamiento del problema, la formulación matemática, el diseño
+experimental y las decisiones metodológicas de este proyecto son propios. Eso
+incluye la parametrización residual sobre B4, la definición de la población
+puntuable, el protocolo de estratificación por gap de oclusión, la elección del
+bootstrap pareado de bloques y el diseño del test externo congelado.
+
+En la implementación se usaron asistentes de IA (Claude, Gemini y Antigravity)
+para las siguientes tareas, siempre bajo revisión y verificación propia:
+
+- Traducción de notas y especificaciones manuscritas a código.
+- Implementación del dashboard de visualización y del script de animación.
+- Redacción y estructuración de la documentación en `docs/`.
+- Refactorización, limpieza de comentarios y apoyo en depuración.
+
+Ningún resultado numérico de este repositorio proviene de un asistente. Todas
+las cifras se regeneran ejecutando los scripts sobre los datos versionados, con
+semillas fijas, y están cubiertas por los 72 tests de invariantes. La bitácora
+de `docs/09_decisiones_y_errores.md` documenta los errores detectados y
+corregidos durante ese proceso, incluidos varios introducidos en código
+generado.
+
+Video completo de la reconstrucción (partido J03WR9, evaluado fuera de
+entrenamiento):
+
 https://github.com/user-attachments/assets/0692ade4-1dd8-4503-9b05-def6b61978d8
+
+https://github.com/user-attachments/assets/0692ade4-1dd8-4503-9b05-def6b61978d8
+
+
