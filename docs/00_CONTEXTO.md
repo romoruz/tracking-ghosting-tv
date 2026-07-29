@@ -81,46 +81,8 @@ Metrica (2 partidos, CONGELADOS, otro proveedor y liga, fuera de dominio):
     consistencia:  14/14 evaluaciones positivas en global y 2-9.6 s
 ```
 
-## 5. Qué NO se puede afirmar
 
-Esta sección es la más importante del documento. Cada punto viene de un error
-que se cometió y se corrigió.
-
-**No digas "destrozamos el estado del arte".** Se superó una heurística *sin
-entrenamiento* por un 46% dentro de dominio. Es sólido y no necesita
-superlativos. Un revisor que conozca el campo castigará la exageración
-descontando todo lo demás.
-
-**No digas que DeepMind "no lo resolvió".** Publicaron un modelo bidireccional
-a propósito, con 105 partidos privados. Resolvieron un problema distinto (y más
-fácil: interpolación en vez de extrapolación).
-
-**No presentes números bidireccionales como tiempo real.** Todo lo medido aquí
-es **causal**: el frame t solo usa observaciones de t' ≤ t. El modo
-bidireccional existe en el código (`--bidirectional`) pero **nunca se ha
-reportado**. Mezclarlos invalidaría la comparación.
-
-**No compares cifras absolutas entre Sportec y Metrica.** Metrica no expone
-`ball_state`, así que su evaluación incluye balón parado por necesidad; la de
-Sportec lo filtra. Las comparaciones válidas son *modelo contra B4 dentro del
-mismo conjunto*.
-
-**No omitas la brecha de dominio.** Dentro de dominio la mejora es del 46%;
-fuera, del 25–38%. Y el bin largo de `metrica_1` apenas se mueve (−12%). Decir
-esto antes de que lo pregunten es lo que da autoridad.
-
-**No omitas que la tanda J03WQQ falló al entrenar.** Early stopping en la época
-16 con validación 7.51 m frente a ~4 m de las demás. Es una trayectoria de
-optimización desafortunada. Que el resultado agrupado se sostenga *con* esa
-tanda dentro lo hace más creíble, no menos.
-
-**No presentes el pitch control como probabilidad calibrada.** La
-implementación es una simplificación cinemática del modelo de Spearman (2017),
-sin integrar sobre la trayectoria del balón. Vale para comparar el mismo
-instante con distintos conjuntos de jugadores —el sesgo es idéntico en los tres
-paneles y se cancela— no para valores absolutos.
-
-## 6. Restricciones del entorno
+## 4. Restricciones del entorno
 
 - **Laptop:** Dell Inspiron 14 5410, i7-1165G7 (4 núcleos / 8 hilos, 15 W),
   32 GB RAM, gráficos Intel Iris Xe → **no hay CUDA**. Los pasos 0–2 corren
@@ -130,7 +92,7 @@ paneles y se cancela— no para valores absolutos.
   ~2 horas.
 - **Datos:** todos abiertos y redistribuibles. No hay datos de ningún club.
 
-## 7. Mapa de la documentación
+## 6. Mapa de la documentación
 
 | Documento | Contenido |
 |---|---|
