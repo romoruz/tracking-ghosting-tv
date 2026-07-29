@@ -34,7 +34,7 @@ Todo con datos abiertos, GPU gratuita y bootstrap pareado de bloques.
 
 **Antes de citar cualquier cifra, lee
 [`docs/00_CONTEXTO.md` §5](docs/00_CONTEXTO.md), que dice qué NO se puede
-afirmar.**
+afirmar nada, pero es un resultado consistente.**
 
 ---
 
