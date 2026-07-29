@@ -181,7 +181,7 @@ malo y aun así gana — comportamiento clásico de un ensemble.
 
 ## 8. Qué se puede afirmar
 
-> *"Nuestro modelo reduce el error de imputación de jugadores fuera de cámara
+> *"El modelo reduce el error de imputación de jugadores fuera de cámara
 > un 46% frente al mejor método publicado sin entrenamiento, validado con
 > leave-one-match-out sobre siete partidos de Bundesliga: mejora en 7 de 7,
 > incluido el régimen de oclusión larga que la literatura declara abierto.
