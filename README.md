@@ -49,8 +49,7 @@ afirmar nada, pero es un resultado consistente.**
 | 4 | Validación cruzada leave-one-match-out | ✅ | GPU (~2 h) |
 | 5 | Test externo congelado | ✅ | minutos |
 | 6 | Figura de tres paneles (pitch control) | ✅ | CPU |
-| 7 | Calibración del viewport con SkillCorner | ⬜ | CPU |
-| 8 | Modelo generativo (distribución, no punto) | ⬜ | GPU |
+
 
 ---
 
